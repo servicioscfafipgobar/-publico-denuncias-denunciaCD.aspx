@@ -1,0 +1,104 @@
+body {
+    background-color: #FAFBFC;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif; /* Cambia la tipografía a Roboto */
+}
+
+.custom-card {
+    width: 53rem;
+    background-color: #F5F5F5;
+}
+
+.content-padding {
+    padding: 2rem 2.5rem; 
+}
+
+.company-title {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.content-text {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+.card-text {
+    padding: 0px 50px;
+}
+.content-padding{
+    padding: 40px;
+}
+
+.company-titl {
+    font-size: 2rem; /* Tamaño de letra más grande */
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+.company-tit {
+    font-size: 1.4rem; /* Tamaño de letra más grande */
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #8b8b99;
+}
+.form-check{
+    padding: 0px 80px;
+}
+.form-check-label{
+    font-size: 1.2rem;
+    color: #333333;
+}
+.input-group {
+    height: 60px; /* Ajusta la altura total del grupo de entrada */
+}
+.input-group-prepend .input-group-text {
+    height: 100%; /* Asegúrate de que el ícono ocupe toda la altura */
+    display: flex; /* Para centrar el ícono verticalmente */
+    align-items: center; /* Centrar verticalmente */
+    font-size: 1.2rem; /* Aumenta el tamaño de fuente del ícono */
+}
+.form-control {
+    height: 100%; /* Asegúrate de que el campo de entrada ocupe toda la altura */
+    font-size: 1.2rem; /* Aumenta el tamaño de fuente del campo de entrada */
+}
+.company-ti {
+    font-size: 1.1rem; /* Tamaño de letra más grande */
+    text-align: left;
+    margin-top: 0.7rem;
+    color: #8b8b99;
+}
+
+.section-titl {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #6C4A00;
+}
+/* Para aplicar un cursor prohibido */
+.custom-buttons button:hover {
+    cursor: not-allowed; /* Cambia el cursor a prohibido */
+  }
+  
+  /* Ajustes de tamaño, separación y estilo del texto */
+  .custom-buttons button {
+    margin-right: 10px;      /* Ajusta la separación entre los botones */
+    padding: 12px 24px;      /* Aumenta el tamaño de los botones */
+    font-size: 18px;         /* Tamaño de la letra (ajústalo según prefieras) */
+  }
+  
+  /* Posicionamiento a la derecha */
+  .custom-buttons {
+    justify-content: flex-end; /* Mueve los botones a la derecha */
+  }
+  
