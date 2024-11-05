@@ -101,4 +101,38 @@ body {
   .custom-buttons {
     justify-content: flex-end; /* Mueve los botones a la derecha */
   }
+  @media (max-width: 500px) {
+    .content-text {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #333333;
+    }
+    .company-titl {
+        font-size: 1.8rem; /* Tamaño de letra más grande */
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 1rem;
+        color: #333333;
+    }
+    .form-check {
+        display: flex;
+        align-items: center; /* Alinea verticalmente el texto y el radio */
+        justify-content: space-between;
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+        padding: 5px 10px; /* Espacio alrededor de cada opción */
+      }
+      .form-check-label {
+        font-size: 1rem; /* Tamaño más pequeño en pantallas pequeñas */
+        color: #333333;
+        margin-left: 10px; /* Espacio entre el radio y el texto */
+        text-align: left;
+        flex-grow: 1; /* Expande el label para cubrir todo el espacio disponible */
+      }
+  }
+  
+  /* Posicionamiento a la derecha */
+  .custom-buttons {
+    justify-content: flex-end; /* Mueve los botones a la derecha */
+  }
   
